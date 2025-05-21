@@ -1,6 +1,4 @@
 * {
-    border-style: solid;
-    border-radius: 1rem;
 }
 
 body {
@@ -10,9 +8,12 @@ body {
 }
 
 nav {
-    background-color: azure;
+    background-color: black;
 }
 
-div {
-    color: aliceblue;
+nav p {
+    color: grey;
 }
+
+
+
