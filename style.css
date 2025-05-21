@@ -1,19 +1,17 @@
 * {
 }
 
+a {
+    list-style: none;
+}
+
 body {
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-weight: 100;
 }
 
-nav {
-    background-color: black;
+.svg {
+    width: 10rem;
+    height: auto;
 }
-
-nav p {
-    color: grey;
-}
-
-
-
