@@ -1,8 +1,8 @@
 <header class="header">
     <div class="logo">
       <a href="#" class="logo-link">
-        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024" fill="none">
-          <rect fill="none"/>
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024">
+          <rect/>
           <line x1="170" y1="461.5" x2="670" y2="461.5" stroke="white"/>
           <line x1="770" y1="461.5" x2="1270" y2="461.5" stroke="white"/>
           <line x1="170" y1="561.5" x2="670" y2="561.5" stroke="white"/>
