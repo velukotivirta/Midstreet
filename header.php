@@ -23,8 +23,9 @@
 
       </li>
       <li class="nav-list-item">
-        <a href="#" class="nav-link">Meistä</a>
-        <a href="#" class="nav-link">Yhteystiedot</a>
+        <a href="#" class="nav-link">VINSENTTI</a>
+        <a href="#" class="nav-link">VERTTI</a>
+        <a href="#" class="nav-link">VIIA</a>
       </li>
 
       </li>

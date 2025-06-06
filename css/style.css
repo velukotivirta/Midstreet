@@ -1,0 +1,114 @@
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: antiquewhite;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body p, h1 {
+  color: white;
+  margin: 0;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: center;
+}
+
+.svg {
+  width: 10rem;
+  height: auto;
+  fill: white;
+  stroke-width: 0.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-icon {
+  position: fixed;
+  left: 5rem;
+}
+
+.logo-name {
+  position: fixed;
+  left: 6.4rem;
+  top: 4rem;
+}
+
+.nav-list-item {
+  display: flex;
+  gap: 5rem;
+  margin: 1rem;
+  margin-right: 10rem;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.person-img {
+  width: 25rem;
+  padding-bottom: 1rem;
+}
+
+.music-note {
+  width: 2rem;
+  height: 1rem;
+  fill: white;
+  padding-bottom: 1rem;
+}
+
+.the-band {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.the-band h1, .the-band a {
+  color: black;
+  text-align: center;
+}
+
+.email {
+  color: black;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  height: 5rem;
+}
+
