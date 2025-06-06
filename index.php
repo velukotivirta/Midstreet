@@ -14,11 +14,19 @@
 <body>
     <?php include 'header.php' ?>
     <section>
-        <div>
-            <img src="/images/vince.png" alt="Vinsentti Koivula">
-            <img src="/images/vertti.png" alt="Vertti Koivula">
-            <img src="/images/viia.png" alt="Viia Koivula">
-            <img src="" alt="">
+        <div class="hero-images">
+            <div class="img-and-name">
+            <img class="vince" src="/midstreet/images/vince.png" alt="Vinsentti Koivula">
+            <p>VINSENTTI KOIVULA</p>
+            </div>
+            <div class="img-and-name">
+            <img class="vertti" src="/midstreet/images/vertti.png" alt="Vertti Koivula">
+            <p>VERTTI KOIVULA</p>
+            </div>
+            <div class="img-and-name">
+            <img class="viia" src="/midstreet/images/viia.png" alt="Viia Koivula">
+            <p>VIIA KOIVULA</p>
+            </div>
         </div>
     </section>
 </body>

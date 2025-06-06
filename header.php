@@ -1,6 +1,6 @@
 <header class="header">
   <div class="logo">
-    <a href="#" class="logo-link">
+    <a href="#" class="logo-icon">
       <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024">
         <rect />
         <line x1="170" y1="461.5" x2="670" y2="461.5" stroke="white" />
@@ -13,21 +13,24 @@
         <line x1="720.5" y1="412" x2="720.5" y2="462" stroke="white" />
         <line x1="720.5" y1="487" x2="720.5" y2="537" stroke="white" />
       </svg>
+      <p class="logo-name">M I D S T R E E T</p>
     </a>
-    </div>
-    <nav>
-      <ul class="nav-list">
-        <li class="nav-list-item">
-        </li>
-        <li class="nav-list-item">
-          <a href="#" class="nav-link">Meistä</a>
-          <a href="#" class="nav-link">Yhteystiedot</a>
-        </li>
 
-        </li>
+  </div>
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item">
 
-        </li>
-      </ul>
-  
+      </li>
+      <li class="nav-list-item">
+        <a href="#" class="nav-link">Meistä</a>
+        <a href="#" class="nav-link">Yhteystiedot</a>
+      </li>
+
+      </li>
+
+      </li>
+    </ul>
+
   </nav>
 </header>

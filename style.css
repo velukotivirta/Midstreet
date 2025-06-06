@@ -19,6 +19,10 @@ body {
   background-color: black;
 }
 
+body p {
+  color: white;
+}
+
 .svg {
   width: 10rem;
   height: auto;
@@ -31,8 +35,48 @@ header {
   justify-content: space-between;
 }
 
+.logo-icon {
+  position: fixed;
+  left: 5rem;
+}
+
+.logo-name {
+  position: fixed;
+  left: 6.4rem;
+  top: 4rem;
+}
+
 .nav-list-item {
   display: flex;
   gap: 4rem;
   margin: 1rem;
+  margin-right: 5rem;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.hero-images img {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 5rem;
+}
+
+.img-and-name {
+  text-align: center;
+}
+
+.vince {
+  box-shadow: 0rem 0rem 2rem 2rem #4c3944;
+}
+
+.vertti {
+  box-shadow: 0rem 0rem 2rem 2rem #4c3944;
+}
+
+.viia {
+  box-shadow: 0rem 0rem 2rem 2rem #4c3944;
 }
