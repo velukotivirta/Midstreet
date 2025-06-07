@@ -82,10 +82,9 @@ header {
   padding-bottom: 1rem;
 }
 
-.music-note {
+.icon {
   width: 2rem;
   height: 1rem;
-  fill: white;
   padding-bottom: 1rem;
 }
 
@@ -101,14 +100,18 @@ header {
   text-align: center;
 }
 
-.email {
+.contact-icon {
+  text-align: center;
   color: black;
   padding: 1rem;
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
   background-color: grey;
-  height: 5rem;
+  height: 3rem;
+  padding-bottom: 1rem;
 }
 
