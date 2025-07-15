@@ -1,17 +1,5 @@
 <?php
-
-require 'vendor/autoload.php';
-include 'listFiles.php';
-
-$filesArray = [];
-
-foreach ($files as $file) {
-    $filesArray[] = [
-        'name' => $file->getName(),
-        'id' => $file->getId(),
-        'mime' => $file->getMimeType(),
-    ];
-}
+require __DIR__ . '/../vendor/autoload.php';
 
 ?>
 
@@ -74,6 +62,15 @@ foreach ($files as $file) {
     </section>
 
     <section>
+        <div class="song-list-container">
+            <h3>BIISILISTAA</h3>
+            <div class="song-list-scrollable">
+                <?php include 'listFiles.php'; ?>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="the-band">
             <h1>OTA YHTEYTTÄ</h1>
             <div class="contact-icon">
@@ -96,6 +93,7 @@ foreach ($files as $file) {
             </div>
         </div>
     </section>
+
 
     <footer>
         <div>

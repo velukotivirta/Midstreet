@@ -53,6 +53,7 @@ header {
 .logo-icon {
   position: fixed;
   left: 5rem;
+  top: 1rem;
 }
 
 .logo-name {
@@ -87,6 +88,7 @@ header {
 .person-img {
   width: 25rem;
   padding-bottom: 1rem;
+  height: auto;
 }
 
 .icon {
@@ -109,6 +111,41 @@ header {
   text-align: center;
 }
 
+.song-list-container {
+  width: 90rem;
+  height: 20rem;
+  padding-left: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.song-list-scrollable {
+  text-align: center;
+  height: 15rem;
+  overflow-y: auto;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: #000000;
+}
+
+.song-list-scrollable::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.song-list-scrollable::-webkit-scrollbar-track {
+  background: #595959;
+  border-radius: 1rem;
+}
+
+.song-list-scrollable::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.song-list-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 .contact-icon {
   text-align: center;
   color: black;
@@ -123,3 +160,18 @@ footer {
   height: 3rem;
   padding-bottom: 1rem;
 }
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+
+
+  .song-list-container {
+    width: 100%;
+    height: 300px;
+  }
+
+
+}
+
