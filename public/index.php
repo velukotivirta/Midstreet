@@ -71,6 +71,10 @@ require __DIR__ . '/../vendor/autoload.php';
     </section>
 
     <section>
+        <?php include 'photoCarousel.php'; ?>
+    </section>
+
+    <section>
         <div class="the-band">
             <h1>OTA YHTEYTTÄ</h1>
             <div class="contact-icon">
@@ -100,9 +104,14 @@ require __DIR__ . '/../vendor/autoload.php';
             <p>Copyright Vertti Koivula 2025</p>
         </div>
     </footer>
+
     <script>
         const files = <?php echo json_encode($filesArray, JSON_PRETTY_PRINT); ?>;
         console.log(files);
+    </script>
+
+    <script
+        src="js/carousel.js">
     </script>
 </body>
 
