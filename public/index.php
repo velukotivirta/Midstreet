@@ -71,7 +71,12 @@ require __DIR__ . '/../vendor/autoload.php';
     </section>
 
     <section>
-        <?php include 'photoCarousel.php'; ?>
+        <div class="carousel-container">
+        <?php include 'photoCarousel.php';
+        var_dump($images); 
+        ?>
+        
+        </div>
     </section>
 
     <section>

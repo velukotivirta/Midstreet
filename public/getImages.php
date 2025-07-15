@@ -19,7 +19,7 @@ $folderId = '1hIeJWMue90y3u02ls5ed9LwF1g5RNGR7';
 
 $optParams = [
     'q' => "'$folderId' in parents and trashed = false and (mimeType contains 'image/')", // Show me files inside this folder and not in temporary trashcan
-    'fields' => 'files(id, name, webViewLink, thumbnailLink)', // Only query three properties for each file, not all metadata
+    'fields' => 'files(id, name, webViewLink, thumbnailLink, webContentLink)', // Only query three properties for each file, not all metadata
     'pageSize' => 50,
     'orderBy' => 'name'
 ];
@@ -28,9 +28,4 @@ $response = $service->files->listFiles($optParams);
 $images = $response->getFiles();
 
 return $images;
-
-
-foreach ($images as $image) {
-    $imageUrl = "https://drive.google.com/uc?id=" . $image->getId();
-    echo "<img src='$imageUrl' alt='{$image->getName()}'>";
-}
+?>
