@@ -110,13 +110,21 @@ header {
 .the-band a {
   color: black;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.section-song-list {
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers vertically if needed */
 }
 
 .song-list-container {
-  width: 90rem;
+  width: 40rem;
   height: 20rem;
   padding-left: 3rem;
   text-align: center;
+  align-items: center;
   color: white;
 }
 
@@ -162,85 +170,67 @@ footer {
   padding-bottom: 1rem;
 }
 
-/* PHOTO CAROUSEL */
+.photoCarousel img {
+  width: 29rem;
+  padding: 1rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
 
-.carousel-container {
+/* SLIDESHOW */
+
+.slider-container {
+  margin: 3rem;
+  scroll-margin-top: 0; /* Add this */
+}
+
+.slider-wrapper {
   position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
 }
 
-.carousel-slides {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Set a height */
-    overflow: hidden;
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 0 1rem 1rem rgb(27, 27, 27);
+  border-radius: 2rem;
 }
 
-.slide {
-    display: none;
-    width: 100%;
-    height: 100%;
+.slider img {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  scroll-margin-top: 0; /* Add this */
 }
 
-.slide.active {
-    display: block;
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
-.slide img {
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 75%;
+  transition: opacity ease 250ms;
 }
 
-.slide-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.5);
-    color: white;
-    padding: 10px;
-    text-align: center;
+.slider-nav a:hover {
+  opacity: 100%;
 }
-
-.carousel-dots {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.dot.active {
-    background: #333;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-button:first-of-type {
-    left: 10px;
-}
-
-button:last-of-type {
-    right: 10px;
-}
-
 /* MOBILE */
 
 @media (max-width: 768px) {

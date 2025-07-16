@@ -61,7 +61,7 @@ require __DIR__ . '/../vendor/autoload.php';
         </div>
     </section>
 
-    <section>
+    <section class="section-song-list">
         <div class="song-list-container">
             <h3>BIISILISTAA</h3>
             <div class="song-list-scrollable">
@@ -70,13 +70,21 @@ require __DIR__ . '/../vendor/autoload.php';
         </div>
     </section>
 
-    <section>
-        <div class="carousel-container">
-        <?php include 'photoCarousel.php';
-        var_dump($images); 
-        ?>
-        
+    <section class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide1" src="..//images/band1.jpg" alt="Heavy metal bassist">
+                <img id="slide2" src="../images/band2.jpg" alt="Rock singer">
+                <img id="slide3" src="../images/band3.jpg" alt="Man playing guitar">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide1"></a>
+                <a href="#slide2"></a>
+                <a href="#slide3"></a>
+
+            </div>
         </div>
+
     </section>
 
     <section>
@@ -110,14 +118,7 @@ require __DIR__ . '/../vendor/autoload.php';
         </div>
     </footer>
 
-    <script>
-        const files = <?php echo json_encode($filesArray, JSON_PRETTY_PRINT); ?>;
-        console.log(files);
-    </script>
-
-    <script
-        src="js/carousel.js">
-    </script>
+    <script src="../js/preventHrefJump.js"></script>
 </body>
 
 </html>
