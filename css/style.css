@@ -103,15 +103,15 @@ header {
   padding-bottom: 1rem;
 }
 
-.the-band {
+.contactInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: white;
 }
 
-.the-band h1,
-.the-band a {
+.contactInfo h1,
+.contactInfo a {
   color: black;
   text-align: center;
   margin-top: 1rem;
@@ -157,6 +157,27 @@ header {
 
 .song-list-scrollable::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
+}
+
+.the-band img {
+  width: 20rem;
+  border-radius: 100%;
+}
+
+.the-band-person{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.the-band-person p {
+  margin-top: 2rem;
+}
+
+.person-description {
+  width: 40rem;
 }
 
 .contact-icon {
@@ -290,6 +311,12 @@ footer {
 
   .slide img {
     height: 250px;
+  }
+
+  .the-band img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
   }
 
   .carousel-btn {

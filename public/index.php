@@ -10,12 +10,25 @@ require __DIR__ . '/../vendor/autoload.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Midstreet - sisarustrio 15 vuoden keikkailukokemuksella. Live-musiikkia häihin, juhliin ja tapahtumiin.">
+    <meta name="keywords" content="Midstreet, bändi, sisarustrio, live-musiikki, häät, juhlat, Koivula">
+    <meta name="author" content="Midstreet">
+    
+    <!-- Open Graph (Facebook, WhatsApp jne.) -->
+    <meta property="og:title" content="Midstreet – sisarustrio">
+    <meta property="og:description" content="Sisarustrio 15 vuoden keikkailukokemuksella">
+    <meta property="og:image" content="https://yoursite.com/images/midstreetRealtube.jpg">
+    <meta property="og:url" content="https://yoursite.com">
+    <meta property="og:type" content="website">
+    
+    
     <title>Midstreet – sisarustrio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Midstreet – sisarustrio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/midstreet/css/style.css">
+    <link class="midstreetLogo" rel="icon" type="image/jpeg" href="../public/midstreetLogoInvertedEmphasized.png">
 </head>
 
 <body>
@@ -84,11 +97,40 @@ require __DIR__ . '/../vendor/autoload.php';
 
             </div>
         </div>
+    </section>
+
+    <section class="the-band">
+        <div class="the-band-people">
+            <div class="the-band-person">
+                <img src="../images/vince.png" alt="Close up of handsome man singing. Black and white">
+                <div class="person-description">
+                <p>V I N S E N T T I</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quo esse consequuntur, et ab dignissimos non natus similique iure saepe eius voluptas ratione laborum explicabo rem blanditiis minus unde voluptate!</p>
+                </div>
+            </div>
+
+            <div class="the-band-person">
+                <img src="../images/vertti.png" alt="Close up of handsome man singing. Black and white">
+                <div class="person-description">
+                <p>V E R T T I</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iure earum adipisci ipsa, consequuntur exercitationem corrupti debitis eligendi ullam soluta aliquam dignissimos magnam labore eum distinctio, saepe vitae eaque. Eaque!</p>
+                </div>
+            </div>
+
+            <div class="the-band-person">
+                <img src="../images/viia.png" alt="Close up of handsome man singing. Black and white">
+                <div class="person-description">
+                    <p>V I I A</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sequi facere. Excepturi sed labore dolorum id incidunt quod culpa aperiam ipsa ab. Rem unde laudantium aut perspiciatis odit sint nisi!</p>
+                </div>
+            </div>
+        </div>
 
     </section>
 
+
     <section>
-        <div class="the-band">
+        <div class="contactInfo">
             <h1>OTA YHTEYTTÄ</h1>
             <div class="contact-icon">
                 <a class="contact-icon" href="https://mail.google.com/mail/?view=cm&fs=1&to=midstreetband@gmail.com" target="_blank" rel="noopener noreferrer" style="display:none">
