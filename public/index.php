@@ -27,7 +27,7 @@ require __DIR__ . '/../vendor/autoload.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/midstreet/css/style.css">
+    <link rel="stylesheet" href="/midstreet//public/css/style.css">
     <link class="midstreetLogo" rel="icon" type="image/jpeg" href="../public/midstreetLogoInvertedEmphasized.png">
 </head>
 
@@ -85,7 +85,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
     <section class="slider-container">
         <div class="slider-wrapper">
-            <div class="slider">
+            <div class="slider" id="slider">
                 <img id="slide1" src="..//images/midstreetHäät.jpg" alt="A wedding band trio">
                 <img id="slide2" src="../images/midstreetRealtube.jpg" alt="A tube amp with an acoustic guitar leaning on it with people blurred chatting in the background">
                 <img id="slide3" src="../images/midstreetVinse.jpg" alt="Man playing guitar">
@@ -161,6 +161,7 @@ require __DIR__ . '/../vendor/autoload.php';
     </footer>
 
     <script src="../js/preventHrefJump.js"></script>
+    <script src="../js/sliderNavHL.js"></script>
 </body>
 
 </html>

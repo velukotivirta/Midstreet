@@ -245,8 +245,8 @@ footer {
 }
 
 .slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background-color: #fff;
   opacity: 75%;
@@ -256,7 +256,14 @@ footer {
 .slider-nav a:hover {
   opacity: 100%;
 }
-/* MOBILE */
+
+.slider-nav a.active {
+  opacity: 100%;
+  background-color: white;
+  transform: scale(1.2); 
+}
+
+/*--------------- MOBILE */
 
 @media (max-width: 768px) {
 

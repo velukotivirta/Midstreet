@@ -1,6 +1,11 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
+// Load vlucas dotenv so that the GOOGLE_APPLICATION_CREDENTIALS can be read:
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
+
 // Load external libraries like Google API
 
 use Google\Client;
@@ -30,4 +35,5 @@ $files = $response->getFiles(); // Extracts the actual list of file objects from
 
 foreach ($files as $file) {
     echo pathinfo($file->getName(), PATHINFO_FILENAME) . "<br><br>";
+
 }
